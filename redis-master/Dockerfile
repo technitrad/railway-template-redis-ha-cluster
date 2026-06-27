@@ -1,4 +1,4 @@
-FROM redis:8.4-alpine
+FROM redis:8.8-alpine
 
 # Install required tools
 RUN apk add --no-cache bash gettext
